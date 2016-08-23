@@ -1,0 +1,17 @@
+<package>
+  <description brief="This package reads ATI mini45 sensors connected to an etherCAT bus">
+  This package reads the 6 ATI mini45 sensors connected to a etherCAT bus that are located in the legs of either ExoTer or MaRTA
+  </description>
+  <author>Marco Pagnamenta/marco.pagnamenta@esa.int</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+</package>
