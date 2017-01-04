@@ -37,9 +37,11 @@ bool Task::configureHook()
 	force_ratio = _force_ratio.get();
 	aliasID = _etherCAT_aliases.get(); // TODO use this in the code
 	sensor_name = _name_sensors.get();
-	
 	std::cout << num_sensors << std::endl;
 	std::cout << sensor_name << std::endl;
+	
+	etherCAT_aliasesV=_etherCAT_aliasesV.get();	
+
     
 	/* EtherCAT */
 	master = NULL;

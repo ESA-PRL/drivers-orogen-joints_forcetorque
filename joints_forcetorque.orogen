@@ -31,7 +31,7 @@ task_context "Task" do
     property("force_ratio","double").doc("Transformation form sensor units to [N]")
 	property("etherCAT_aliases","int").doc("alias of the etherCAT slaves")
 	property("name_sensors","std::string").doc("names (e.g. positions) given to the sensors")
-	#property("etherCAT_aliases","std::vector<int>").doc("alias of the etherCAT slaves")
+	property("etherCAT_aliasesV","std::vector<int>").doc("alias of the etherCAT slaves")
 	#property("name_sensors","std::vector<std::string>").doc("names (e.g. positions) given to the sensors")
 
     # A configuration property (here, a std::string). Its value can be retrieved

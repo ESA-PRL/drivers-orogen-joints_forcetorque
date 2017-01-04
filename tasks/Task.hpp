@@ -39,6 +39,7 @@ tasks/Task.cpp, and will be put in the ethercat namespace.
 	/***************************/
 	
 	base::samples::Wrench sensor1;   // value to be sent in the output port
+	//base::samples::Wrenches sensoroutvect;
 	
 	/***************************/
 	/** Config Port Variables  **/
@@ -49,7 +50,7 @@ tasks/Task.cpp, and will be put in the ethercat namespace.
 	double force_ratio;
 	int aliasID;
 	std::string sensor_name;
-	//std::vector<int> aliasID;
+	std::vector<int> etherCAT_aliasesV;
 	//std::vector<std::string> sensor_name;
        
 	/************************************************************************************************************************************************************************/
